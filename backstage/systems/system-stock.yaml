@@ -6,4 +6,4 @@ metadata:
   description: stock system
 spec:
   owner: tunas
-  domain: stock
+  domain: domain-stock
