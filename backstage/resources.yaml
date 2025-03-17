@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: loc-stock-resources
+  description: A collection of all resources used by stock system and domain
+spec:
+  targets:
+    - ./resources/resource-appservice-stock.yaml
+    - ./resources/resource-db-stock.yaml
+    - ./resources/resource-topic-stock.yaml

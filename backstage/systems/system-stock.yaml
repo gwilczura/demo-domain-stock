@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+# https://backstage.io/docs/features/software-catalog/descriptor-format/#kind-system
+kind: System
+metadata:
+  name: system-stock
+  description: stock system
+spec:
+  owner: tunas
+  domain: stock

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: loc-stock-domains
+  description: A collection of all product related domains
+spec:
+  targets:
+    - ./domains/domain-stock.yaml

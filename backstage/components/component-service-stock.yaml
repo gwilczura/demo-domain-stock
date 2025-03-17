@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component-service-stock
+  description: stock Service
+spec:
+  type: service
+  lifecycle: production
+  owner: tunas
+  system: system-stock
+  providesApis:
+    - api-stock
+  dependsOn:
+    - resource:resource-db-stock
+    - resource:resource-appservice-stock
+    - resource:resource-topic-stock
+    - component:component-library-common-host

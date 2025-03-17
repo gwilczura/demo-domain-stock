@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: loc-stock
+  description: A core file linking to domain stock
+spec:
+  targets:
+    - ./apis.yaml
+    - ./systems.yaml
+    - ./components.yaml
+    - ./domains.yaml
+    - ./resources.yaml

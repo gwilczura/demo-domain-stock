@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: resource-db-stock
+  description: PostgreSQL database used by stock service
+spec:
+  type: database
+  owner: tunas
+  system: system-stock

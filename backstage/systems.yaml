@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: loc-stock-systems
+  description: A collection of all stock systems
+spec:
+  targets:
+    - ./systems/system-stock.yaml
