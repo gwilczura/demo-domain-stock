@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: resource-subscription-stock-topic-products
+  description: servicebus subscription for stock service consuming data from products topic
+spec:
+  type: topic-subscription
+  owner: tunas
+  system: system-stock
+  dependsOn:
+    - resource:resource-topic-products

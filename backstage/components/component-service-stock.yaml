@@ -10,8 +10,11 @@ spec:
   system: system-stock
   providesApis:
     - api-stock
+  consumesApis:
+    - api-products
   dependsOn:
     - resource:resource-db-stock
     - resource:resource-appservice-stock
     - resource:resource-topic-stock
+    - resource:resource-subscription-stock-topic-products
     - component:component-library-common-host

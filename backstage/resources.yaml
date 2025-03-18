@@ -8,3 +8,4 @@ spec:
     - ./resources/resource-appservice-stock.yaml
     - ./resources/resource-db-stock.yaml
     - ./resources/resource-topic-stock.yaml
+    - ./resources/resource-subscription-stock-topic-products.yaml
